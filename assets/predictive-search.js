@@ -198,9 +198,7 @@ class PredictiveSearch extends HTMLElement {
     }
 
     const selected = this.querySelector('[aria-selected="true"]');
-
     if (selected) selected.setAttribute('aria-selected', false);
-
     this.input.setAttribute('aria-activedescendant', '');
     this.removeAttribute('open');
     this.input.setAttribute('aria-expanded', false);
