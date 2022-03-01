@@ -153,16 +153,17 @@
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "Show More",
-            "link": ""
+            "link": "shopify:\/\/collections"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/lock.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Show More",
+            "link": "shopify:\/\/collections"
           }
         },
         "column3": {
