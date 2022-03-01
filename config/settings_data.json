@@ -1,8 +1,14 @@
 {
   "current": {
+    "page_width": 1200,
     "card_style": "standard",
     "badge_position": "bottom left",
     "sale_badge_color_scheme": "background-2",
+    "favicon": "shopify:\/\/shop_images\/scooter9_55398241-e46d-46df-ad62-1ef27756bc98.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/poster-5.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/poster-5.jpg",
+    "checkout_body_background_image": "shopify:\/\/shop_images\/poster-5.jpg",
+    "checkout_sidebar_background_image": "shopify:\/\/shop_images\/poster-5.jpg",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
