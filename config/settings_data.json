@@ -81,11 +81,14 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
+          "logo_max_width": 100,
+          "color_scheme": "background-1"
         }
       },
       "main-password-footer": {
         "type": "main-password-footer",
         "settings": {
+          "color_scheme": "background-2"
         }
       }
     },
