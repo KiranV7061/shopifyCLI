@@ -523,30 +523,6 @@
           </div>
         {%- endif -%}
       </a>
-      
-      
-      
-      <a href="{{ routes.cart_url }}" class="header_icon header__icon--cart link focus-inset" id="cart-icon-bubble">
-        {%- liquid
-        if cart == empty
-        render 'icon-cart-empty'
-        else
-        render 'icon-cart'
-        endif
-        -%}
-        <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
-        {%- if cart != empty -%}
-        <div class="cart-count-bunbble">
-        <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count:cart.item_count }}</span>
-        </div>div>
-          {% endif %}
-      </a>
-      
-      
-      
-      
-      
-      
     </div>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
